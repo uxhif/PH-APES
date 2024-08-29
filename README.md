@@ -1,5 +1,5 @@
 # PH-APES: Persistence Homology and APES based segmentation
-This project refer to APES
+This project references APES
 
 
 
