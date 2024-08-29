@@ -5,7 +5,7 @@ This project refer to APES
 
 <hr>
 
-# APES: Attention-based Point Cloud Edge Sampling
+## APES: Attention-based Point Cloud Edge Sampling
 
 <p>
 <a href="https://arxiv.org/pdf/2302.14673.pdf">
@@ -23,12 +23,12 @@ This project refer to APES
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/attention-based-point-cloud-edge-sampling/3d-point-cloud-classification-on-modelnet40)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40?p=attention-based-point-cloud-edge-sampling) <br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/attention-based-point-cloud-edge-sampling/3d-part-segmentation-on-shapenet-part)](https://paperswithcode.com/sota/3d-part-segmentation-on-shapenet-part?p=attention-based-point-cloud-edge-sampling)
 
-## Homepage
+### Homepage
 
 This project is selected as a Highlight at CVPR 2023! For more information about the project, please refer to our [project homepage](https://junweizheng93.github.io/publications/APES/APES.html).
 
 
-## Prerequisites
+### Prerequisites
 
 Install all necessary packages using:
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 
-## Data
+### Data
 
 Download and preprocess the data using:
 
@@ -50,7 +50,7 @@ python utils/download_shapenet.py  # for segmentation
 ```
 
 
-## Train
+### Train
 
 Train models from scratch using:
 
@@ -71,7 +71,7 @@ bash utils/dist_train.sh configs/apes/apes_seg_global-shapenet-200epochs.py 2  #
 ```
 
 
-## Test
+### Test
 
 Test model with checkpoint using:
 
@@ -92,7 +92,7 @@ bash utils/dist_test.sh configs/apes/apes_seg_global-shapenet-200epochs.py ckpt_
 ```
 
 
-## Visualization
+### Visualization
 
 Visualize results with checkpoint using:
 
@@ -113,7 +113,7 @@ bash utils/dist_test.sh configs/apes/apes_seg_global-shapenet-200epochs.py ckpt_
 ```
 
 
-## Citation
+### Citation
 
 If you are interested in this work, please cite as below:
 
